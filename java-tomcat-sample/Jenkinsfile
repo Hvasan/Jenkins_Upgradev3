@@ -12,9 +12,9 @@ pipeline {
                 }
             }
         }
-        stage ('Deploy in Staging Environment'){
+        stage ('Deploy in Staging Environment') {
             build job: 'Deploy_on_Tomcat_1'
-        }
+        } 
 
     }
 }
