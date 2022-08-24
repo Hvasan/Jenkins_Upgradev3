@@ -13,7 +13,7 @@ pipeline {
             }
         }
         stage ('Deploy in Staging Environment'){
-            build job: 'Deploy_on_Kubernetes_CI'
+            build job: 'Deploy_on_Tomcat_1'
         }
 
     }
